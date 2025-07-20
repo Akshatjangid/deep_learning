@@ -1,0 +1,34 @@
+# === BIG FILES (models, datasets) ===
+*.pt
+*.pkl
+*.tgz
+*.zip
+*.tar.gz
+*.h5
+*.weights
+
+# === CSVs / datasets (if large) ===
+fer2013.csv
+flower_photos.tgz
+cust_satisfaction.csv
+
+# === Image outputs ===
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+
+# === Notebooks Checkpoints ===
+.ipynb_checkpoints/
+
+# === Python cache ===
+__pycache__/
+*.py[cod]
+
+# === VS Code ===
+.vscode/
+
+# === System files ===
+.DS_Store
+Thumbs.db
